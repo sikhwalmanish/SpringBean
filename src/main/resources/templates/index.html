@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to HomePage</title>
+</head>
+<body>
+<h1>Welcome to Website, <span th:text="${myName}"></span></h1>
+
+<hr>
+
+    <p th:text="'Users Data are Given format'+ ${myUser.name} + 'and Age '+ ${myUser.age}"></p>
+<!--<hr>
+<ul th:each="user: ${usersList}">
+<li th:text="'Users Data are Given format '+ ${user.name} + 'and Age '+ ${user.age}"></li>
+</ul>-->
+</body>
+</html>
